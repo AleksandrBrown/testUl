@@ -123,7 +123,7 @@ body {
   padding-right: 5px;
 }
 .start-section .title-block .title {
-  font-size: 50px;
+  font-size: 2.23125rem;
   line-height: 60px;
   font-weight: 600;
   margin: 25px 0;
@@ -132,7 +132,7 @@ body {
 }
 @media screen and (max-width: 768px) {
   .start-section .title-block .title {
-    font-size: 30px;
+    font-size: 2.625rem;
   }
 }
 .start-section .title-block .subtitle {
@@ -324,6 +324,7 @@ body {
   padding: 35px 0 15px;
   font-size: 40px;
   font-weight: 600;
+  color: #000;
 }
 .services-section .cards-block {
   position: relative;
@@ -347,17 +348,21 @@ body {
 }
 .services-section .cards-block .list-title {
   color: #595c60;
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.4;
   margin-top: 0;
 }
 .services-section .cards-block .list .left-list li {
   list-style: none;
   margin-bottom: 2rem;
+  line-height: 1.5;
+  font-size: 16px;
 }
 .services-section .cards-block .list .right-list li {
   list-style: none;
   margin-bottom: 2rem;
+  line-height: 1.5;
+  font-size: 16px;
 }
 .services-section .cards-block .list .title-mob-size {
   font-size: 1.2rem;
@@ -541,12 +546,16 @@ body {
   padding-bottom: 3rem;
 }
 
+.price-section {
+  background: #e5e8ec;
+}
 .price-section .title {
   padding: 3rem 0 0;
   font-size: 40px;
   font-weight: 600;
   margin: 15px 0;
   text-align: center;
+  color: #000;
 }
 .price-section .cards-block {
   display: flex;
@@ -608,6 +617,7 @@ body {
   font-weight: 600;
   margin: 15px 0;
   text-align: left;
+  color: #000;
 }
 @media screen and (max-width: 768px) {
   .footer-news-section .title {
@@ -631,6 +641,7 @@ body {
   font-weight: 600;
   margin: 15px 0;
   text-align: center;
+  color: #000;
 }
 @media screen and (max-width: 768px) {
   .footer-contacts-section .title {
@@ -690,15 +701,20 @@ body {
   height: 300px;
 }
 
+.text-size-xl {
+  font-size: 20px !important;
+  font-weight: 600 !important;
+}
+
 .uk-tooltip {
-  width: 400px !important;
+  width: 600px !important;
   max-width: 100% !important;
   height: fit-content;
   display: block;
   border-radius: 15px;
   background: #eee !important;
   color: #000 !important;
-  font-size: 14px !important;
+  font-size: 20px !important;
 }
 .uk-tooltip ul {
   margin: 10px 25px !important;
@@ -709,6 +725,7 @@ body {
   margin: 5px 10px;
   color: #000 !important;
   display: block;
+  padding: 20px;
 }
 
 .uk-accordion-title {
