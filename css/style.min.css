@@ -352,6 +352,12 @@ body {
   line-height: 1.4;
   margin-top: 0;
 }
+@media screen and (max-width: 900px) {
+  .services-section .cards-block .list-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+}
 .services-section .cards-block .list .left-list li {
   list-style: none;
   margin-bottom: 2rem;
@@ -408,6 +414,7 @@ body {
   margin-top: 0;
   text-align: left;
   position: relative;
+  display: block;
 }
 .price-section .cards-block .card .title::before {
   content: "✔";
@@ -432,6 +439,26 @@ body {
 .price-section .cards-block .card img {
   width: 70px;
   margin: 0 auto;
+}
+
+.t-p::before {
+  content: "✔";
+  position: absolute;
+  display: block;
+  color: black;
+  left: 30px;
+  font-size: 25px;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.title-mob-p {
+  color: #595c60;
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 0;
+  text-align: left;
+  display: block;
+  position: relative;
 }
 
 .footer-news-section .title {
@@ -545,8 +572,18 @@ body {
 }
 
 .title-xl {
-  font-size: 18px;
+  font-size: 1.25rem;
+  line-height: 1.4;
   color: #000 !important;
+}
+@media screen and (max-width: 900px) {
+  .title-xl {
+    font-size: 1.2rem !important;
+  }
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 .uk-accordion-title {
