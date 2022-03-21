@@ -45,7 +45,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 950px;
+  min-height: 950px;
+  height: fit-content;
   min-height: 500px;
 }
 @media screen and (max-width: 768px) {
@@ -180,6 +181,7 @@ body {
   text-align: left;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
   padding: 20px;
+  margin-bottom: 50px;
 }
 @media screen and (max-width: 768px) {
   .start-section .form-block .main-form .form-wrap {
@@ -657,4 +659,10 @@ body {
 
 .uk-accordion-title::before {
   content: none !important;
+}
+
+.link {
+  font-size: 25px;
+  color: #000;
+  text-decoration: underline;
 }
