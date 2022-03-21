@@ -374,9 +374,61 @@ body {
   font-size: 1.2rem;
 }
 
-.price-section {
-  background: #e5e8ec;
+.banner-section {
+  background: url("../img/consult2.jpg"), rgba(255, 255, 255, 0.4);
+  background-blend-mode: overlay;
+  height: 340px;
+  background-attachment: fixed;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+@media screen and (max-width: 768px) {
+  .banner-section {
+    height: fit-content;
+  }
+}
+.banner-section .main-banner-block {
+  padding: 60px 0;
+}
+.banner-section .main-banner-block .title {
+  font-size: 40px;
+  font-weight: 600;
+  margin: 15px 0;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  .banner-section .main-banner-block .title {
+    font-size: 30px;
+  }
+}
+.banner-section .main-banner-block .subtitle {
+  color: #000;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+.banner-section .main-banner-block button {
+  display: block;
+  width: 160px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  background: #ff871c;
+  line-height: 1.8;
+  box-shadow: 0 3px 0 #d66a12;
+  margin: 40px auto 0;
+}
+.banner-section .main-banner-block button:hover {
+  background: #fda151;
+}
+.banner-section .main-banner-block button:active {
+  transform: translateY(5px);
+}
+
 .price-section .title {
   padding: 3rem 0 0;
   font-size: 40px;
